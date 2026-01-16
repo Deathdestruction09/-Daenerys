@@ -1,78 +1,49 @@
-# -Daenerys<div id="ai-bio" style="width:100%;height:500px;position:relative;overflow:hidden;border-radius:20px;background:linear-gradient(135deg,#0a0a0a 0%,#1a0033 50%,#000 100%);box-shadow:0 20px 40px rgba(0,255,255,0.1);">
-  <canvas id="three-canvas"></canvas>
-  <div style="position:absolute;top:20px;left:20px;color:#00ffff;font-family:'Courier New',monospace;font-size:24px;font-weight:bold;text-shadow:0 0 10px #00ffff;z-index:10;">
-    AI/ML Engineer in Training
-  </div>
-  <div style="position:absolute;bottom:20px;left:20px;right:20px;color:#ffffff;font-family:'Courier New',monospace;font-size:16px;line-height:1.4;text-shadow:0 0 5px #00ff88;z-index:10;">
-    🚀 2nd-year B.Tech CSE | AI/ML Specialist<br>
-    Building neural nets, full-stack apps & optimized systems.<br>
-    Java | HTML/JS | DS/Algo | OS | ML Frameworks<br>
-    Bhopal, IN • Streaming code & lifts • Open to collabs!
-  </div>
+<h2 align="left">Hi 👋! My name is ... and I'm a ..., from ....</h2>
+
+###
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=maurodesouza&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=maurodesouza&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-<script>
-  const scene = new THREE.Scene();
-  const camera = new THREE.PerspectiveCamera(75, window.innerWidth / 500, 0.1, 1000);
-  const renderer = new THREE.WebGLRenderer({ canvas: document.getElementById('three-canvas'), alpha: true });
-  renderer.setSize(window.innerWidth, 500);
-  renderer.setClearColor(0x000000, 0);
+###
 
-  // AI Core (glowing sphere)
-  const coreGeometry = new THREE.SphereGeometry(1, 32, 32);
-  const coreMaterial = new THREE.MeshBasicMaterial({ color: 0x00ffff, wireframe: true });
-  const core = new THREE.Mesh(coreGeometry, coreMaterial);
-  scene.add(core);
+<img align="right" height="150" src="https://i.imgflip.com/65efzo.gif"  />
 
-  // Neural particles
-  const particles = new THREE.BufferGeometry();
-  const particleCount = 200;
-  const positions = new Float32Array(particleCount * 3);
-  const colors = new Float32Array(particleCount * 3);
+###
 
-  for (let i = 0; i < particleCount; i++) {
-    positions[i * 3] = (Math.random() - 0.5) * 10;
-    positions[i * 3 + 1] = (Math.random() - 0.5) * 10;
-    positions[i * 3 + 2] = (Math.random() - 0.5) * 10;
-    colors[i * 3] = Math.random();
-    colors[i * 3 + 1] = Math.random();
-    colors[i * 3 + 2] = 1;
-  }
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="typescript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="30" alt="csharp logo"  />
+</div>
 
-  particles.setAttribute('position', new THREE.BufferAttribute(positions, 3));
-  particles.setAttribute('color', new THREE.BufferAttribute(colors, 3));
+###
 
-  const particleMaterial = new THREE.PointsMaterial({ size: 0.05, vertexColors: true });
-  const particleSystem = new THREE.Points(particles, particleMaterial);
-  scene.add(particleSystem);
+<div align="left">
+  <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="youtube logo"  />
+  <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
+  <img src="https://img.shields.io/static/v1?message=Twitch&logo=twitch&label=&color=9146FF&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="twitch logo"  />
+  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo"  />
+  <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
+  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
+</div>
 
-  // Lines connecting nodes (neural links)
-  const lineMaterial = new THREE.LineBasicMaterial({ color: 0x00ff88, opacity: 0.3, transparent: true });
-  for (let i = 0; i < 50; i++) {
-    const points = [
-      new THREE.Vector3((Math.random()-0.5)*8, (Math.random()-0.5)*8, (Math.random()-0.5)*8),
-      new THREE.Vector3((Math.random()-0.5)*8, (Math.random()-0.5)*8, (Math.random()-0.5)*8)
-    ];
-    const lineGeometry = new THREE.BufferGeometry().setFromPoints(points);
-    const line = new THREE.Line(lineGeometry, lineMaterial);
-    scene.add(line);
-  }
+###
 
-  camera.position.z = 5;
+<br clear="both">
 
-  function animate() {
-    requestAnimationFrame(animate);
-    core.rotation.y += 0.01;
-    particleSystem.rotation.y += 0.005;
-    particleSystem.rotation.x += 0.002;
-    renderer.render(scene, camera);
-  }
-  animate();
+<img src="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/snake.svg" alt="Snake animation" />
 
-  window.addEventListener('resize', () => {
-    camera.aspect = window.innerWidth / 500;
-    camera.updateProjectionMatrix();
-    renderer.setSize(window.innerWidth, 500);
-  });
-</script>
+###
